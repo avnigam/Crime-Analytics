@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 960px;
+  height: 500px;
+  position: relative;
+}
+
+/* stylesheet for your custom graph */
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+.states-choropleth {
+  fill: #ccc;
+}
+
+#tooltip-container {
+  position: absolute;
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border: 1px solid;
+  display: none;
+}
+
+.tooltip_key {
+  font-weight: bold;
+}
+
+.tooltip_value {
+  margin-left: 20px;
+  float: right;
+}
+
+.label {
+  fill: #777;
+}
+.year.label {
+  font: 300 96px "Helvetica Neue";
+  fill: #ddd;
+}
+
+.year.label.active {
+  fill: #aaa;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis--x path {
+  display: none;
+}
+
+path { 
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+  svg {
+    font: 10px sans-serif;
+    shape-rendering: crispEdges;
+  }
+
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+  }
+ 
+  path.domain {
+    stroke: none;
+  }
+ 
+  .y .tick line {
+    stroke: #ddd;
+  }
+  
+  .bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+  
+</style>
+
+<div id="tooltip-container"></div>
+
+<div id="canvas-svg"></div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.1.0/topojson.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<link href="dragit.css" rel="stylesheet"/>
+<script src="dragit.js"></script>
+<span id="min-time">2004</span> 
+<input type="range" name="points" min="2004" max="2014" step="1" value="2004" id="slider-time" style="width:650px">
+<span id="max-time">2014</span>
+<script src="stackedchart.js"></script>
+<script src="line.js"></script>
+<script src="heatmap.js"></script>
+<script src="bar.js"></script>
+<script>
+var WIDTH = 700, HEIGHT = 500;
+var width = WIDTH,
+height = HEIGHT;
+		  
+var svg = d3.select("#canvas-svg").append("svg")
+		.attr("width", width)
+		.attr("height", height);
+		  
+var label = svg.append("text")
+			.attr("class", "year label")
+			.attr("text-anchor", "end")
+			.attr("y", height - 24)
+			.attr("x", width)
+			.text(2004);
+		
+function displayYear(year) {
+	label.text(dragit.time.min + Math.round(year));
+}
+	
+var change = 0	
+var last_time = 2004
+function update(v, duration) {
+	dragit.time.current = v || dragit.time.current;
+	displayYear(dragit.time.current)
+	d3.select("#slider-time").property("value", dragit.time.current);
+}
+
+showHeatMap(2004);
+
+d3.select("#slider-time")
+.on("mousemove", function() { 
+	update(parseInt(this.value), 100);
+	if (last_time != dragit.time.current){
+		last_time = dragit.time.current;
+		change = 1;
+	}
+	if (change == 1) {
+		showHeatMap(last_time);
+		change = 0;
+	}
+})
+
+</script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<script>
+stackedChart();
+</script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<script>
+bar();
+</script>
