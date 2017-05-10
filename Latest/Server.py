@@ -57,7 +57,7 @@ def weapon():
     list = []
     for row in reader:
         row = collections.OrderedDict(sorted(row.items()))
-        row['frequency'] = math.log(float(row["frequency"]))
+        row['frequency'] = math.log(float(row["frequency"]) + 5)
         list.append(row)
     list = sorted(list, key=lambda k: k['frequency'], reverse=True)
     return make_response(json.dumps(list))

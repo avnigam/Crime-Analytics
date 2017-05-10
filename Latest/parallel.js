@@ -54,7 +54,7 @@ function parallel_plot(plotdata) {
 	var yAxis = d3.svg.axis()
 		.orient("left");
 
-	var svg = d3.select("body").append("svg")
+	var svg = d3.select("#parallel_chart").append("svg")
 		.attr("width", width + margin.left + margin.right)
 		.attr("height", height + margin.top + margin.bottom)
 	  .append("g")
@@ -160,6 +160,7 @@ function parallel_csv(objArray) {
 }
 
 function parallel(state, year) {
+	d3.select("#parallel_chart").selectAll("svg").remove();
     d3.json('http://localhost:5000/api/parallel', function (error, data) {
         var csv = parallel_csv(data);
         parallel_plot(csv);

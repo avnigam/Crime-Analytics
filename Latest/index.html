@@ -205,21 +205,21 @@ path {
     shape-rendering: crispEdges;
 }
 
-        select {
-            width: 175px;
-            font-size: 10px;
-            height: 27px;
-            font: normal 100% 'century gothic', arial, sans-serif;
-            font-weight: bold;
-            background: #f9f9f9;
+select {
+	width: 175px;
+    font-size: 10px;
+    height: 27px;
+    font: normal 100% 'century gothic', arial, sans-serif;
+    font-weight: bold;
+    background: #f9f9f9;
         }
 
-		option { 
-			font-size: 10px;
-            font: normal 100% 'century gothic', arial, sans-serif;
-            font-weight: bold;
-			background-color: #f9f9f9;
-		}
+option { 
+	font-size: 10px;
+	font: normal 100% 'century gothic', arial, sans-serif;
+	font-weight: bold;
+	background-color: #f9f9f9;
+}
 
   .margin30 {
   margin-bottom: 30px;
@@ -231,27 +231,16 @@ path {
   shape-rendering: crispEdges;
 }
 path:hover {
-  fill: white;
+  fill: None;
 }
-.tooltip {
-  background: #eee;
-  box-shadow: 0 0 5px #999999;
-  color: #333;
-  font-size: 12px;
-  left: 130px;
-  padding: 10px;
-  position: absolute;
-  text-align: center;
-  top: 95px;
-  z-index: 10;
-  display: block;
-  opacity: 0;
-}
+
 </style>
 
 <div id="tooltip-container"></div>
 
 <div id="canvas-svg"></div>
+
+
 
 <div id="cont" class="container-fluid text-center">
 
@@ -285,57 +274,28 @@ path:hover {
 <script src="parallel.js"></script>
 <script src="line.js"></script>
 <script src="circular.js"></script>
-<!-- <script> -->
-<!-- map(); -->
-<!-- </script> -->
 
-<!-- <br> -->
-<!-- <br> -->
-<!-- <br> -->
-<!-- <br> -->
-<!-- <br> -->
+<div id="stacked_chart"></div>
 
-<!-- <body> -->
-	<!-- <label>Choose Data Variable </label> -->
-	<!-- <select id="type"> -->
-		<!-- <option value="gender">Gender Ratio</option> -->
-		<!-- <option value="age">Age Ratio</option> -->
-	<!-- </select> -->
-	<!-- <script> -->
-		<!-- stackedChart(); -->
-		<!-- document.getElementById("type").onchange = function () { -->
-            <!-- var choice = document.getElementById("type").value; -->
-            <!-- stackedChart(choice); -->
-        <!-- }; -->
-	<!-- </script> -->
-<!-- </body> -->
+<div id="bar_chart"></div>
 
-<!-- <br> -->
-<!-- <br> -->
-<!-- <br> -->
-<!-- <br> -->
-<!-- <br> -->
-<!-- <script> -->
-<!-- bar(); -->
-<!-- </script> -->
+<div id="line_chart"></div>
 
-<!-- <br> -->
-<!-- <br> -->
-<!-- <br> -->
-<!-- <br> -->
-<!-- <br> -->
-<!-- <script> -->
-<!-- parallel(); -->
-<!-- </script> -->
+<div id="parallel_chart"></div>
 
-<!-- <br> -->
-<!-- <br> -->
-<!-- <br> -->
-<!-- <br> -->
-<!-- <br> -->
-<!-- <script> -->
-<!-- line(); -->
-<!-- </script> -->
+<script>
+map();
+</script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<script>
+stackedChart();
+</script>
 
 <br>
 <br>
@@ -343,5 +303,32 @@ path:hover {
 <br>
 <br>
 <script>
-circular_map();
+bar();
 </script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<script>
+parallel();
+</script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<script>
+line();
+</script>
+
+<!-- <br> -->
+<!-- <br> -->
+<!-- <br> -->
+<!-- <br> -->
+<!-- <br> -->
+<!-- <script> -->
+<!-- circular_map(); -->
+<!-- </script> -->

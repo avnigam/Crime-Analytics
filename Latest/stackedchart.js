@@ -6,7 +6,7 @@ function stackedChartRender(data) {
 	var width = 960 - margin.left - margin.right,
 		height = 500 - margin.top - margin.bottom;
 
-	var svg = d3.select("body")
+	var svg = d3.select("#stacked_chart")
 	  .append("svg")
 	  .attr("width", width + margin.left + margin.right)
 	  .attr("height", height + margin.top + margin.bottom)
@@ -128,6 +128,7 @@ function stackedChartRender(data) {
 }
 
 function stackedChart(choice) {
+	d3.select("#stacked_chart").selectAll("svg").remove();
 	if (choice == 'gender') {
 		
 	} else {

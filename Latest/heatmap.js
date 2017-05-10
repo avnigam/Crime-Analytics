@@ -159,6 +159,7 @@ function showHeatMapPlot(svg, year, plotdata) {
 			})
 			.on("mousedown", function(d) {
 				console.log(id_name_map[d.id]);
+				stackedChart();
 			})
 			.on("mouseout", function() {
 					$(this).attr("fill-opacity", "1.0");

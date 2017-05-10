@@ -25,7 +25,7 @@ function line_plot(plotdata, year) {
 		.y(function(d) { return y(d.count); });
 		
 	// Adds the svg canvas
-	var	svg = d3.select("body")
+	var	svg = d3.select("#line_chart")
 		.append("svg")
 		.attr("width", width + margin.left + margin.right)
 		.attr("height", height + margin.top + margin.bottom)
@@ -89,6 +89,7 @@ function line_csv(objArray) {
 }
 
 function line(state, year) {
+	d3.select("#line_chart").selectAll("svg").remove();
     d3.json('http://localhost:5000/api/line', function (error, data) {
         var csv = line_csv(data);
         line_plot(csv, year);

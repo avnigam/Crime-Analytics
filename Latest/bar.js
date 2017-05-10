@@ -22,7 +22,8 @@ function bar_plot(plotdata) {
 		.orient("left")
 		.ticks(10);
 
-	var svg = d3.select("body").append("svg")
+	var svg = d3.select("#bar_chart")
+		.append("svg")
 		.attr("width", width + margin.left + margin.right)
 		.attr("height", height + margin.top + margin.bottom)
 		.append("g")
@@ -112,6 +113,7 @@ function ConvertToCSV(objArray) {
 }
 
 function bar(state, year) {
+	d3.select("#bar_chart").selectAll("svg").remove();
     d3.json('http://localhost:5000/api/bar_weapon', function (error, data) {
         var csv = ConvertToCSV(data);
         bar_plot(csv);
