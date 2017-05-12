@@ -1,0 +1,542 @@
+state,year,count
+New Jersey,2011,38
+Pennsylvania,2013,60
+Illinois,2011,50
+New Hampshire,2012,3
+Georgia,2007,78
+North Dakota,2011,1
+South Dakota,2010,3
+Missouri,2014,42
+Arkansas,2007,29
+South Dakota,2006,1
+Mississippi,2008,13
+Georgia,2005,58
+New Hampshire,2005,1
+Wyoming,2008,2
+Kentucky,2006,8
+Florida,2011,129
+North Dakota,2012,2
+Wyoming,2011,3
+Alaska,2006,5
+Tennessee,2013,38
+Hawaii,2006,4
+District of Columbia,2004,16
+New York,2011,84
+Kansas,2005,3
+Maine,2004,1
+Washington,2005,25
+Missouri,2011,58
+New York,2008,83
+Alaska,2009,5
+Delaware,2006,5
+Indiana,2005,42
+Michigan,2014,52
+District of Columbia,2005,18
+New Mexico,2013,16
+North Carolina,2014,47
+Colorado,2007,19
+Wisconsin,2012,11
+Delaware,2007,4
+Arizona,2005,51
+Washington,2004,33
+Massachusetts,2014,15
+Texas,2006,155
+Oklahoma,2005,17
+Nevada,2008,21
+Wyoming,2014,3
+Nevada,2011,21
+Tennessee,2007,37
+Michigan,2008,56
+Vermont,2006,1
+Mississippi,2005,23
+Oklahoma,2013,20
+Illinois,2012,67
+Hawaii,2011,1
+New Jersey,2009,35
+Arkansas,2008,17
+Pennsylvania,2012,76
+Florida,2013,118
+Wisconsin,2008,15
+Arkansas,2011,9
+Michigan,2010,65
+Arizona,2011,35
+Alabama,2008,37
+Washington,2006,26
+Wisconsin,2009,13
+Oregon,2012,6
+Ohio,2006,55
+Alabama,2007,35
+Ohio,2012,52
+Kansas,2010,15
+Minnesota,2005,12
+Indiana,2011,40
+West Virginia,2007,6
+Maryland,2005,54
+Texas,2010,155
+Indiana,2008,34
+Missouri,2005,41
+Pennsylvania,2005,76
+Nebraska,2009,2
+South Dakota,2012,1
+Minnesota,2006,10
+Maryland,2007,51
+Hawaii,2014,1
+Louisiana,2008,35
+Texas,2008,133
+Alaska,2007,3
+Iowa,2006,4
+Tennessee,2009,47
+Kansas,2012,9
+Louisiana,2014,45
+Delaware,2010,5
+Michigan,2006,77
+Georgia,2011,59
+Arkansas,2009,23
+South Carolina,2005,21
+New Hampshire,2008,1
+Alaska,2010,4
+Mississippi,2014,14
+Michigan,2009,60
+Massachusetts,2011,15
+Texas,2014,138
+Mississippi,2007,16
+Nevada,2009,13
+South Carolina,2012,36
+Rhodes Island,2011,4
+Wisconsin,2007,16
+Oklahoma,2008,18
+Minnesota,2012,16
+West Virginia,2010,2
+Oklahoma,2012,22
+Nevada,2012,12
+New Hampshire,2014,1
+Iowa,2010,3
+Kansas,2011,9
+New Mexico,2009,11
+Mississippi,2013,14
+West Virginia,2008,10
+Maine,2013,4
+Michigan,2004,69
+Arkansas,2012,16
+West Virginia,2011,9
+Connecticut,2004,10
+Rhodes Island,2006,1
+Ohio,2014,44
+Kansas,2007,6
+Colorado,2008,23
+Indiana,2013,32
+Nevada,2013,20
+Oregon,2005,12
+Tennessee,2010,40
+Virginia,2014,30
+Maryland,2004,55
+Massachusetts,2006,18
+New Jersey,2004,53
+Rhodes Island,2008,3
+Mississippi,2009,14
+Connecticut,2013,9
+Minnesota,2007,10
+Arkansas,2013,11
+New Hampshire,2007,1
+Tennessee,2008,46
+Massachusetts,2009,17
+Ohio,2004,56
+South Dakota,2008,1
+Oregon,2011,12
+Connecticut,2014,14
+Mississippi,2012,21
+Wisconsin,2014,16
+Utah,2005,4
+Louisiana,2006,64
+Pennsylvania,2007,96
+Kansas,2009,9
+Missouri,2013,39
+District of Columbia,2009,18
+Florida,2004,79
+West Virginia,2005,4
+Indiana,2009,25
+Hawaii,2009,2
+Colorado,2013,22
+Utah,2012,6
+Rhodes Island,2014,5
+Georgia,2013,55
+South Carolina,2014,34
+Virginia,2009,45
+Alaska,2012,7
+North Dakota,2006,1
+Utah,2004,7
+Connecticut,2011,5
+Maryland,2012,45
+Missouri,2012,37
+New Mexico,2010,15
+Utah,2014,9
+Kansas,2014,10
+Arkansas,2010,18
+Connecticut,2010,10
+Oregon,2010,10
+Tennessee,2005,48
+Texas,2007,161
+Nebraska,2012,8
+New Jersey,2013,39
+South Carolina,2008,29
+Rhodes Island,2005,7
+Utah,2007,8
+Alaska,2013,3
+South Carolina,2011,36
+Montana,2004,3
+Alaska,2004,3
+Virginia,2005,44
+Montana,2011,2
+Washington,2014,22
+Colorado,2005,15
+South Carolina,2010,23
+Vermont,2012,1
+Pennsylvania,2010,66
+South Dakota,2007,1
+Georgia,2010,49
+Pennsylvania,2008,72
+Washington,2007,22
+Nebraska,2007,3
+Washington,2009,21
+Colorado,2004,31
+Pennsylvania,2011,67
+Vermont,2010,1
+New Jersey,2006,47
+Maryland,2011,39
+Washington,2008,13
+Wisconsin,2006,18
+Vermont,2011,1
+Maryland,2008,55
+Georgia,2014,59
+Alaska,2008,4
+Ohio,2008,49
+Delaware,2014,2
+Illinois,2008,53
+North Carolina,2008,65
+Arkansas,2005,19
+Colorado,2014,14
+Oregon,2009,9
+Hawaii,2007,2
+Mississippi,2004,17
+New York,2014,53
+Florida,2014,124
+Wyoming,2004,2
+Mississippi,2011,25
+Texas,2009,155
+Ohio,2010,44
+Louisiana,2013,56
+Nevada,2005,23
+Wisconsin,2013,14
+Oregon,2014,8
+District of Columbia,2011,11
+Idaho,2011,4
+New Jersey,2010,42
+Pennsylvania,2006,88
+Nebraska,2014,5
+North Carolina,2005,64
+Oklahoma,2010,20
+Kentucky,2014,13
+New Mexico,2007,17
+New York,2004,94
+New York,2006,91
+California,2006,252
+Florida,2006,119
+Connecticut,2012,19
+New York,2005,80
+Idaho,2008,1
+Missouri,2009,39
+Nebraska,2004,3
+Maine,2007,2
+Wyoming,2005,1
+Oklahoma,2006,17
+Tennessee,2014,38
+Montana,2009,1
+Virginia,2013,36
+Missouri,2010,48
+New Jersey,2014,37
+West Virginia,2013,9
+Delaware,2004,3
+Arizona,2010,32
+Pennsylvania,2004,69
+Florida,2010,100
+Arizona,2013,46
+New Mexico,2014,17
+Wisconsin,2004,15
+Kentucky,2007,22
+District of Columbia,2010,10
+South Carolina,2007,29
+Florida,2009,118
+Massachusetts,2005,25
+Illinois,2005,47
+Colorado,2006,10
+New Jersey,2005,47
+Rhodes Island,2010,1
+Utah,2009,6
+Virginia,2012,36
+Wyoming,2007,1
+Iowa,2009,5
+Mississippi,2010,21
+Alabama,2010,20
+Nebraska,2008,1
+Hawaii,2005,2
+Michigan,2012,80
+Missouri,2006,24
+West Virginia,2009,5
+Pennsylvania,2014,54
+Illinois,2004,41
+Idaho,2014,4
+New Mexico,2008,20
+California,2007,234
+Connecticut,2007,11
+Oregon,2004,15
+California,2005,280
+Tennessee,2006,46
+New Mexico,2011,16
+Kansas,2004,2
+California,2013,188
+Texas,2004,144
+Utah,2011,5
+Washington,2012,26
+Texas,2011,118
+Idaho,2005,9
+Minnesota,2013,12
+New Jersey,2007,48
+North Dakota,2014,2
+Massachusetts,2007,15
+Wisconsin,2010,17
+Illinois,2014,37
+Iowa,2012,2
+Ohio,2007,52
+Oklahoma,2004,22
+Mississippi,2006,18
+Nevada,2014,23
+Alabama,2014,1
+Maine,2012,3
+Maine,2006,2
+Washington,2013,26
+Idaho,2010,3
+Louisiana,2004,58
+Nebraska,2006,1
+Nebraska,2011,5
+Minnesota,2010,7
+Kentucky,2011,20
+North Carolina,2009,45
+Maine,2005,1
+Arizona,2007,57
+Kentucky,2004,20
+Vermont,2009,3
+District of Columbia,2014,14
+Delaware,2005,1
+West Virginia,2012,5
+Indiana,2012,28
+North Carolina,2010,46
+North Carolina,2013,42
+Nebraska,2010,3
+Delaware,2008,7
+California,2008,194
+South Dakota,2005,2
+Texas,2013,121
+Delaware,2011,6
+Delaware,2012,7
+Georgia,2006,68
+New York,2010,66
+Michigan,2007,58
+New Jersey,2008,40
+Rhodes Island,2004,4
+Utah,2013,5
+North Carolina,2012,50
+Louisiana,2009,57
+Georgia,2009,59
+Illinois,2013,47
+South Dakota,2004,1
+South Dakota,2013,2
+New Mexico,2004,20
+California,2014,197
+Illinois,2006,61
+Iowa,2014,4
+Florida,2008,122
+Arizona,2014,20
+Arkansas,2006,14
+Ohio,2013,59
+Connecticut,2006,12
+Arizona,2006,49
+New Jersey,2012,37
+Massachusetts,2013,9
+Colorado,2010,12
+New York,2009,97
+Connecticut,2009,5
+California,2009,202
+Missouri,2008,43
+Alabama,2005,24
+Florida,2012,108
+Nevada,2006,38
+Rhodes Island,2012,5
+Iowa,2004,2
+Hawaii,2008,2
+Louisiana,2005,44
+California,2012,193
+Utah,2006,3
+South Carolina,2006,38
+North Dakota,2013,1
+Idaho,2009,6
+South Carolina,2004,39
+Massachusetts,2012,13
+Iowa,2005,8
+Idaho,2004,5
+Virginia,2007,38
+South Carolina,2013,29
+Louisiana,2012,50
+District of Columbia,2013,9
+Massachusetts,2008,16
+Minnesota,2004,14
+Nevada,2004,20
+Maine,2014,5
+Michigan,2011,52
+Kentucky,2012,29
+Rhodes Island,2009,4
+Rhodes Island,2013,1
+California,2004,244
+Iowa,2011,4
+Wisconsin,2011,13
+Arkansas,2004,16
+Colorado,2009,16
+Ohio,2005,57
+Vermont,2005,1
+Hawaii,2012,1
+Connecticut,2008,13
+Kentucky,2013,19
+Kentucky,2010,22
+Minnesota,2014,10
+Iowa,2013,5
+Arkansas,2014,16
+Indiana,2004,42
+Louisiana,2010,58
+North Carolina,2004,46
+Wisconsin,2005,22
+Ohio,2011,39
+Kentucky,2009,20
+North Carolina,2011,47
+West Virginia,2006,6
+Indiana,2006,33
+New Mexico,2012,15
+Maryland,2013,41
+California,2011,183
+Oregon,2013,17
+Kansas,2006,15
+Michigan,2005,63
+Georgia,2008,65
+Minnesota,2011,7
+South Dakota,2014,5
+New Hampshire,2009,1
+Minnesota,2009,4
+Missouri,2004,37
+Maine,2009,5
+Montana,2013,2
+Iowa,2008,12
+New Hampshire,2006,1
+Maryland,2010,40
+Hawaii,2013,2
+Oklahoma,2011,18
+Hawaii,2004,2
+New Hampshire,2013,2
+Delaware,2009,5
+Minnesota,2008,10
+Oklahoma,2007,25
+Idaho,2012,1
+Vermont,2013,1
+Massachusetts,2004,20
+New York,2007,85
+Vermont,2008,2
+Montana,2012,3
+Michigan,2013,66
+West Virginia,2004,5
+New York,2012,68
+California,2010,205
+Alaska,2014,6
+Oklahoma,2009,19
+Colorado,2011,16
+Montana,2005,4
+Idaho,2013,4
+North Carolina,2007,61
+Virginia,2011,36
+Virginia,2006,34
+District of Columbia,2006,19
+Virginia,2008,43
+Louisiana,2011,42
+Arizona,2004,38
+Florida,2007,118
+West Virginia,2014,10
+North Carolina,2006,45
+Tennessee,2011,38
+Idaho,2007,8
+Oregon,2008,2
+Tennessee,2004,37
+Alabama,2004,12
+Illinois,2009,60
+Ohio,2009,46
+Indiana,2010,42
+Connecticut,2005,13
+Montana,2014,3
+Missouri,2007,44
+Alabama,2009,30
+Maryland,2009,40
+Oregon,2006,15
+Illinois,2010,57
+Maine,2010,4
+Arizona,2012,34
+Iowa,2007,5
+Georgia,2004,47
+Maryland,2006,54
+Massachusetts,2010,20
+Illinois,2007,61
+Wyoming,2012,6
+Pennsylvania,2009,68
+Utah,2008,1
+Vermont,2007,1
+Tennessee,2012,41
+Kentucky,2005,22
+Arizona,2009,46
+Alabama,2006,32
+Maine,2008,7
+Hawaii,2010,1
+Vermont,2014,1
+Idaho,2006,1
+Washington,2010,14
+Montana,2010,3
+Virginia,2010,44
+Utah,2010,8
+Georgia,2012,59
+Texas,2012,112
+Colorado,2012,14
+Kansas,2008,9
+Delaware,2013,3
+Florida,2005,90
+South Carolina,2009,38
+Arizona,2008,38
+Montana,2008,2
+Kentucky,2008,16
+Nevada,2010,13
+Texas,2005,142
+New York,2013,52
+Oklahoma,2014,24
+District of Columbia,2007,14
+Indiana,2007,27
+New Hampshire,2011,5
+New Mexico,2006,12
+Louisiana,2007,48
+Maryland,2014,38
+Montana,2006,4
+New Mexico,2005,9
+Nebraska,2013,5
+North Dakota,2009,1
+Alaska,2005,3
+Indiana,2014,41
+South Dakota,2009,2
+Washington,2011,24
+Maine,2011,3
+Oregon,2007,8
+Virginia,2004,45
+Wyoming,2013,1
+Kansas,2013,9
+Alaska,2011,5
+Nevada,2007,31
